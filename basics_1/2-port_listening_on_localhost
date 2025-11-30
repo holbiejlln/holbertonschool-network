@@ -1,6 +1,4 @@
-
 #!/usr/bin/env bash
-# 2-port_listening_on_localhost
+# Listen on port 98 of localhost and print received data
 
-# Listen on localhost, port 98, and print whatever is received
-sudo nc -l 127.0.0.2 98
+nc -l 127.0.0.1 98
